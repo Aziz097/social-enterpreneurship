@@ -66,7 +66,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className="font-sans antialiased bg-surface text-secondary selection:bg-accent/20 selection:text-primary">
+      <body className="font-sans antialiased bg-surface text-secondary selection:bg-accent/20 selection:text-primary" suppressHydrationWarning={true}>
         <main className="min-h-screen">
           {children}
         </main>

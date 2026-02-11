@@ -24,7 +24,7 @@ export default function TrustSignal({ variant = 'guarantee' }: TrustSignalProps)
             styles: 'bg-surface-warm/90 border-accent/20 text-secondary',
         },
         verified: {
-            icon: <GraduationCap className="w-5 h-5 text-primary" />,
+            icon: <GraduationCap className="w-5 h-5 text-white" />,
             text: 'University Verified Content',
             styles: 'bg-primary/90 border-primary/20 text-white',
         },

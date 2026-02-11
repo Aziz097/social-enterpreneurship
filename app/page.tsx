@@ -5,6 +5,7 @@ import ContentPreview from '@/components/sections/ContentPreview';
 import ReadinessQuiz from '@/components/sections/ReadinessQuiz';
 import AuthorBio from '@/components/sections/AuthorBio';
 import FinalCTA from '@/components/sections/FinalCTA';
+import ToastNotification from '@/components/ui/ToastNotification';
 
 export default function LandingPage() {
   return (
@@ -16,6 +17,7 @@ export default function LandingPage() {
       <ContentPreview />
       <AuthorBio />
       <FinalCTA />
+      <ToastNotification />
     </>
   );
 }

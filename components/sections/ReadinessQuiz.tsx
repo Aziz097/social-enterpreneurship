@@ -110,10 +110,12 @@ export default function ReadinessQuiz() {
                                                 <button
                                                     key={index}
                                                     onClick={() => handleAnswer(index)}
-                                                    className="w-full text-left p-4 rounded-xl border border-border hover:border-accent hover:bg-accent/5 transition-all flex items-center justify-between group"
+                                                    className="w-full text-left p-5 rounded-xl border-2 border-secondary/20 bg-surface-warm/50 hover:bg-white hover:border-accent hover:shadow-lg hover:-translate-y-1 transition-all flex items-center justify-between group"
                                                 >
-                                                    <span className="text-secondary group-hover:text-primary font-medium">{option}</span>
-                                                    <ChevronRight className="w-5 h-5 text-gray-300 group-hover:text-accent opacity-0 group-hover:opacity-100 transition-all" />
+                                                    <span className="text-lg text-secondary font-medium group-hover:text-primary transition-colors">{option}</span>
+                                                    <div className="w-8 h-8 rounded-full bg-secondary/10 flex items-center justify-center group-hover:bg-accent group-hover:text-white transition-all">
+                                                        <ChevronRight className="w-5 h-5 opacity-60 group-hover:opacity-100" />
+                                                    </div>
                                                 </button>
                                             ))}
                                         </div>
