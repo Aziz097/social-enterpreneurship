@@ -48,9 +48,12 @@ export default function FinalCTA() {
                                     <span className="block text-sm text-primary-light uppercase tracking-wider mb-1">Complete Package</span>
                                     <span className="text-2xl font-semibold">E-book + Workbook</span>
                                 </div>
-                                <div className="text-right">
-                                    <span className="text-4xl font-bold text-accent">$49</span>
-                                    <span className="text-lg text-primary-light">.00</span>
+                                <div className="text-right flex flex-col items-end">
+                                    <span className="text-lg text-primary-light/60 line-through decoration-red-500/50 decoration-2">$49.00</span>
+                                    <div className="flex items-baseline">
+                                        <span className="text-4xl font-bold text-accent">$39</span>
+                                        <span className="text-lg text-primary-light">.00</span>
+                                    </div>
                                 </div>
                             </div>
 
@@ -68,28 +71,20 @@ export default function FinalCTA() {
                                 ))}
                             </div>
 
-                            {/* Dual Checkout Options */}
-                            <div className="grid sm:grid-cols-2 gap-4 w-full">
+                            {/* Single Checkout Option */}
+                            <div className="w-full">
                                 <Button
                                     variant="accent"
                                     size="xl"
                                     className="w-full shadow-lg group text-base py-6 h-auto bg-[#ff90e8] hover:bg-[#ff90e8]/90 text-black border border-black/10 font-bold"
-                                    onClick={() => window.open('#gumroad', '_blank')}
+                                    onClick={() => window.open('http://lynk.id/chroniclelabs/mr859odz47zn', '_blank')}
                                 >
-                                    Gumroad <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                                </Button>
-                                <Button
-                                    variant="outline"
-                                    size="xl"
-                                    className="w-full shadow-lg group text-base py-6 h-auto bg-[#F1641E] hover:bg-[#F1641E]/90 text-white border-transparent font-bold hover:text-white"
-                                    onClick={() => window.open('#etsy', '_blank')}
-                                >
-                                    Etsy Shop <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                                    Get it on Lynk.id <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                                 </Button>
                             </div>
 
                             <p className="mt-4 text-xs text-primary-light/60">
-                                Choose your preferred secure checkout platform.
+                                Secure checkout via Lynk.id
                             </p>
                         </div>
                     </div>

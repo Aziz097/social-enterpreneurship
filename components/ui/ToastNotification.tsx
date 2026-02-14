@@ -70,22 +70,14 @@ export default function ToastNotification() {
                                 </button>
                             </div>
 
-                            <div className="grid grid-cols-2 gap-4">
+                            <div className="w-full">
                                 <Button
                                     size="lg"
                                     className="w-full bg-[#ff90e8] text-black hover:bg-[#ff90e8]/90 font-bold border-0 shadow-lg h-12"
-                                    onClick={() => window.open('#gumroad', '_blank')}
+                                    onClick={() => window.open('http://lynk.id/chroniclelabs/mr859odz47zn', '_blank')}
                                 >
                                     <ShoppingBag size={18} className="mr-2" />
-                                    Gumroad
-                                </Button>
-                                <Button
-                                    size="lg"
-                                    className="w-full bg-[#F1641E] text-white hover:bg-[#F1641E]/90 font-bold border-0 shadow-lg h-12"
-                                    onClick={() => window.open('#etsy', '_blank')}
-                                >
-                                    <Store size={18} className="mr-2" />
-                                    Etsy
+                                    Buy on Lynk.id
                                 </Button>
                             </div>
                         </div>
