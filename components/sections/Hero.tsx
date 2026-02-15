@@ -34,7 +34,7 @@ export default function Hero() {
                             New Edition Available Now
                         </div>
 
-                        <h1 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[1.1] text-primary text-balance">
+                        <h1 className="font-display text-hero text-primary text-balance">
                             Build a Business That <span className="text-accent italic">Matters</span>.
                         </h1>
 

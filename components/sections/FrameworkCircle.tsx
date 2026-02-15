@@ -70,7 +70,7 @@ export default function FrameworkCircle() {
         <Section spacing="lg" variant="warm">
             <Container size="lg">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-5xl font-display text-primary mb-6">
+                    <h2 className="text-h2 font-display text-primary mb-6">
                         The Framework for <span className="text-accent italic">Actionable Humanity</span>
                     </h2>
                     <p className="text-xl text-secondary/80 max-w-2xl mx-auto">
@@ -80,13 +80,13 @@ export default function FrameworkCircle() {
                 </div>
 
                 <Tabs defaultValue="foundational" className="w-full">
-                    <div className="flex justify-center mb-10 overflow-x-auto pb-4">
-                        <TabsList className="bg-white border border-border p-1 rounded-full shadow-sm w-full md:w-auto flex md:inline-flex min-w-[320px]">
+                    <div className="flex justify-start md:justify-center mb-10 w-full overflow-x-auto pb-4 no-scrollbar">
+                        <TabsList className="bg-white border border-border p-1 rounded-full shadow-sm w-max md:w-auto inline-flex">
                             {pillars.map((pillar, index) => (
                                 <TabsTrigger
                                     key={pillar.id}
                                     value={pillar.id}
-                                    className="rounded-full px-4 md:px-8 py-2 md:py-3 text-sm md:text-base data-[state=active]:bg-primary data-[state=active]:text-white transition-all flex-1 md:flex-none whitespace-nowrap"
+                                    className="rounded-full px-4 md:px-8 py-3 whitespace-nowrap text-sm md:text-base data-[state=active]:bg-primary data-[state=active]:text-white transition-all"
                                 >
                                     {index + 1}. {pillar.title}
                                 </TabsTrigger>

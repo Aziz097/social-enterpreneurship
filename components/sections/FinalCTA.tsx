@@ -30,7 +30,7 @@ export default function FinalCTA() {
                         Instant Digital Delivery
                     </div>
 
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-display mb-6 tracking-tight">
+                    <h2 className="text-h2 font-display mb-6 tracking-tight">
                         Start Your Journey Today
                     </h2>
                     <p className="text-xl text-primary-light/90 max-w-2xl mx-auto mb-10 leading-relaxed">

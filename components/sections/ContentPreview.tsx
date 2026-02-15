@@ -57,7 +57,7 @@ export default function ContentPreview() {
             <Container size="lg">
                 <div className="text-center mb-16">
                     <Badge variant="outline" className="mb-4 border-accent text-accent px-4 py-1 text-sm">Inside the E-book</Badge>
-                    <h2 className="text-3xl md:text-5xl font-display text-primary mb-4">Not Just Theory. <span className="text-accent italic">A Blueprint.</span></h2>
+                    <h2 className="text-h2 font-display text-primary mb-4">Not Just Theory. <span className="text-accent italic">A Blueprint.</span></h2>
                     <p className="text-secondary/80 max-w-2xl mx-auto text-lg">
                         10 comprehensive chapters, 200+ pages of actionable strategies, and real-world tools.
                     </p>
@@ -75,10 +75,12 @@ export default function ContentPreview() {
                         >
                             <Card className="h-full border hover:border-accent/30 transition-all hover:shadow-lg group">
                                 <CardContent className="p-6">
-                                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-4 ${item.color} group-hover:scale-110 transition-transform`}>
-                                        {item.icon}
+                                    <div className="flex items-center gap-4 mb-4">
+                                        <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${item.color} flex-shrink-0 group-hover:scale-110 transition-transform`}>
+                                            {item.icon}
+                                        </div>
+                                        <h3 className="font-display text-xl font-bold text-primary group-hover:text-accent transition-colors">{item.title}</h3>
                                     </div>
-                                    <h3 className="font-display text-xl font-bold text-primary mb-2 group-hover:text-accent transition-colors">{item.title}</h3>
                                     <p className="text-sm text-secondary/80 leading-relaxed">{item.desc}</p>
                                 </CardContent>
                             </Card>

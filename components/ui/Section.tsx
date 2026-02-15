@@ -17,7 +17,7 @@ const Section = forwardRef<HTMLElement, SectionProps>(
             none: '',
             sm: 'py-8 md:py-12',
             md: 'py-12 md:py-16',
-            lg: 'py-20 md:py-24',
+            lg: 'py-[var(--spacing-section)]',
             xl: 'py-24 md:py-32',
         };
 

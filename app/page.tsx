@@ -7,6 +7,8 @@ import AuthorBio from '@/components/sections/AuthorBio';
 import FinalCTA from '@/components/sections/FinalCTA';
 import ToastNotification from '@/components/ui/ToastNotification';
 
+import Testimonials from '@/components/sections/Testimonials';
+
 export default function LandingPage() {
   return (
     <>
@@ -15,6 +17,7 @@ export default function LandingPage() {
       <FrameworkCircle />
       <ReadinessQuiz />
       <ContentPreview />
+      <Testimonials />
       <AuthorBio />
       <FinalCTA />
       <ToastNotification />

@@ -29,7 +29,7 @@ export default function AuthorBio() {
                     {/* Content Column */}
                     <div className="lg:col-span-7 space-y-6">
                         <Badge variant="accent" className="px-3 py-1">The Expert</Badge>
-                        <h2 className="text-4xl md:text-5xl font-display text-primary">
+                        <h2 className="text-h2 font-display text-primary">
                             Rasheda L. Weaver, <span className="text-accent">PhD</span>
                         </h2>
                         <p className="text-xl text-secondary font-medium">

@@ -70,7 +70,7 @@ export default function ReadinessQuiz() {
         <Section id="quiz" variant="white" spacing="lg">
             <Container size="md">
                 <div className="text-center mb-10">
-                    <h2 className="text-3xl font-display text-primary mb-2">Are You Ready to Launch?</h2>
+                    <h2 className="text-h2 font-display text-primary mb-2">Are You Ready to Launch?</h2>
                     <p className="text-secondary/70">Take the 1-minute assessment</p>
                 </div>
 

@@ -61,13 +61,15 @@ export default function FeaturesGrid() {
                             transition={{ delay: feature.delay }}
                         >
                             <Card className="h-full border-none shadow-md hover:shadow-xl transition-all bg-white/80 backdrop-blur-sm">
-                                <CardContent className="p-8 text-center flex flex-col items-center h-full">
-                                    <div className="w-16 h-16 rounded-2xl bg-accent/10 flex items-center justify-center mb-6">
-                                        {feature.icon}
+                                <CardContent className="p-8 h-full">
+                                    <div className="flex items-center gap-4 mb-4">
+                                        <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center flex-shrink-0">
+                                            {feature.icon}
+                                        </div>
+                                        <h3 className="text-xl font-semibold text-primary">
+                                            {feature.title}
+                                        </h3>
                                     </div>
-                                    <h3 className="text-xl font-semibold text-primary mb-3">
-                                        {feature.title}
-                                    </h3>
                                     <p className="text-muted-foreground leading-relaxed">
                                         {feature.description}
                                     </p>
